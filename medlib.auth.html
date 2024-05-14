@@ -1,0 +1,132 @@
+<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2//EN\">
+<HTML>
+<HEAD>
+<TITLE>Authentication Required</TITLE>
+
+<link type="text/css" rel="stylesheet" href="https://assets.iu.edu/brand/legacy/brand.css" media="all" />
+
+<!-- local style override to keep footer-v1 at bottom of page -->
+<style>
+#footer-v1 {
+  position: fixed;  /* relative to browser window ("viewport") */
+  width: 100vw;
+  bottom: 0;
+}
+</style>
+
+<!-- mednet.iu.edu stylesheets from RLML home page -->
+
+<link rel='stylesheet' id='wp-block-library-css'  href='https://library.mednet.iu.edu/wp-includes/css/dist/block-library/style.min.css?ver=5.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='megamenu-css'  href='https://library.mednet.iu.edu/wp-content/uploads/maxmegamenu/style.css?ver=c872bd' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='https://library.mednet.iu.edu/wp-includes/css/dashicons.min.css?ver=5.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='understrap-styles-css'  href='https://library.mednet.iu.edu/wp-content/themes/library-strap/css/theme.css?ver=1563903949' type='text/css' media='all' />
+<link rel='stylesheet' id='mednet-style-css'  href='https://library.mednet.iu.edu/wp-content/themes/mednet.css?ver=1563903949' type='text/css' media='all' />
+<link rel='stylesheet' id='library-style-css'  href='https://library.mednet.iu.edu/wp-content/themes/library-strap/css/library-style.css?ver=1563903949' type='text/css' media='all' />
+<link rel='stylesheet' id='mednet-admin-styles-css'  href='https://library.mednet.iu.edu/wp-content/themes/library-strap/css/mednet-admin.css?ver=1563903949' type='text/css' media='all' />
+<link rel='stylesheet' id='hm_custom_css-css'  href='https://library.mednet.iu.edu/wp-content/uploads/hm_custom_css_js/custom.css?ver=1553696666' type='text/css' media='all' />
+<link rel='stylesheet' id='feedzy-rss-feeds-css'  href='https://library.mednet.iu.edu/wp-content/plugins/feedzy-rss-feeds/css/feedzy-rss-feeds.css?ver=3.3.7' type='text/css' media='all' />
+<link rel='stylesheet' id='su-shortcodes-css'  href='https://library.mednet.iu.edu/wp-content/plugins/shortcodes-ultimate/includes/css/shortcodes.css?ver=5.3.0' type='text/css' media='all' />
+
+</HEAD>
+<body>
+<header>
+  <!-- Global header area: Logo, lockup and search toggle -->
+  <div class="rvt-header-global">
+    <a class="rvt-header-global__skip-link" href="#main-content">Skip to main content</a>
+    <div class="rvt-container rvt-container--center rvt-container--junior">
+      <div class="rvt-header-global__inner">
+         <a href="https://medicine.iu.edu/" class="rvt-lockup ">
+          <div class="rvt-lockup__tab">
+            <svg class="rvt-lockup__trident" viewBox="0 0 28 34" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path d="M-3.34344e-05                       4.70897H8.83308V7.174H7.1897V21.1426H10.6134V2.72321H8.83308V0.121224H18.214V2.65476H16.2283V21.1426H19.7889V7.174H18.214V4.64047H27.0471V7.174H25.0614V23.6761L21.7746 26.8944H16.2967V30.455H18.214V33.8787H8.76463V30.592H10.6819V26.8259H5.20403L1.91726 23.6077V7.174H-3.34344e-05V4.70897Z" fill="white"></path>
+            </svg>
+            </div>
+          <div class="rvt-lockup__body">
+            <span class="rvt-font-cond rvt-lockup__title">Indiana University</span>
+            <span class="rvt-font-cond rvt-lockup__subtitle">School of Medicine</span>
+          </div>
+        </a>
+<!-- END: Global header area: Logo, lockup -->
+
+<!-- <BODY>
+
+<div class="container logos">
+  <div>
+    <a href="https://library.mednet.iu.edu"><img class="mednet-logo" src="https://library.mednet.iu.edu/wp-content/themes/library-strap/img/mednet-logo-crimson.png" /></a>
+  </div>
+  <div>
+    <a href="https://medicine.iu.edu"><img class="iusm-logo" src="https://medicine.iu.edu/wp-content/themes/iusm/assets/images/iusm-logo.svg" /></a>
+  </div>
+</div>
+-->
+
+
+<CENTER>
+<P>
+<div id="full-width-banner" class="wrapper breakout-banner">
+  <div class="container">
+    <H1>Ruth Lilly Medical Library - Authentication Required</H1>
+  </div>
+</div>
+
+<script type="text/javascript">
+  function RedirectToCAS() {
+    window.location = "&AUTHCASLOGIN"
+  }
+
+  function RedirectToLibraryLogin() {
+    window.location = "&AUTHLIBRARYLOGIN"
+  }
+
+  function RedirectToAccountHelp() {
+    window.location = "https://kb.iu.edu/data/aczn.html"
+  }
+</script>
+
+<br>
+
+<TABLE BORDER=2 BORDERCOLOR=#990000 CELLSPACING=5 CELLPADDING=5 WIDTH=50% HEIGHT=50%>
+
+  <TR width=40 height=40 align=center>
+    <TD><button name="OK" onclick="RedirectToCAS()"><b>IU Network ID</b></button></TD>
+    <TD align="left"><b>Select, if you have an 
+    <a href="https://kb.iu.edu/data/beml.html">IU Network ID</a>.</b> Your browser will be redirected to the
+    <a href="https://kb.iu.edu/d/auog">IU Login</a>
+ page (unless you have already logged in via IU Login).</TD>
+  </TR>
+
+  <TR width=40 height=40 align=center>
+    <TD><button name="OK2" onclick="RedirectToLibraryLogin()"> <b>Library-only</b> User ID</button></td>
+    <td align="left"><b>Select, if you have been given a special Medical Library-only username and password.</b>
+    NOTE: This account is valid only for access to 
+ <a href="https://library.mednet.iu.edu">Ruth Lilly Medical Library</a> electronic resources.</td>
+  </TR>
+
+  <TR width=40 height=40 align=center>
+    <TD><button name="OK3" onclick="RedirectToAccountHelp()"><b>No</b> User ID</button></td>
+    <TD align="left"><b>Select</b> to learn more about obtaining computer accounts at Indiana University.</td>
+  </TR>
+
+</TABLE>
+</CENTER>
+</font>
+
+<P>
+
+
+<div id="footer-v1" role="contentinfo" itemscope="itemscope" itemtype="https://schema.org/CollegeOrUniversity">
+  <div class="wrapper">
+<!--    <p class="tagline bicentennial">18202020</p> -->
+        <p class="copyright">
+            <a href="https://www.iu.edu/" class="block-iu"><img src="//assets.iu.edu/brand/legacy/block-iu.png" height="26" width="22" alt="Block IU" /></a>
+            <span class="line-break"><a href="https://www.iu.edu/copyright/index.html">Copyright</a> &#169; 2019</span>
+            <span class="line-break">The Trustees of <a href="https://www.iu.edu/" itemprop="url"><span itemprop="name">Indiana University</span></a>,</span>
+            <span class="line-break"><a href="https://www.iu.edu/copyright/index.html#complaints">Copyright Complaints</a></span>
+        </p>
+    <p class="internal"><a href="https://www.iu.edu/privacy/" id="privacy-policy-link">Privacy Notice</a> | <a href="https://accessibility.iu.edu/help" id="accessibility-link" title="Having trouble accessing this web page because of a disability? Visit this page for assistance.">Accessibility Help</a></p>
+  </div>
+</div>
+
+
+</BODY>
+</HTML>

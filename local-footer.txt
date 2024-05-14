@@ -1,0 +1,66 @@
+      <!-- 
+        **************************************************************************
+            Local footer
+
+        ************************************************************************** 
+      -->
+      <div class="rvt-container-lg rvt-ts-sm rvt-m-bottom-xs">
+        <div class="rvt-border-all rvt-bg-black-400 rvt-color-white container-ulib" id="" role="">
+          <div class="rvt-row">  
+            <div class="column rvt-cols-12-sm rvt-cols-4-md rvt-p-bottom-md">
+              <div class="rvt-m-bottom-md">
+                  <a href="https://www.iupui.edu/academics/libraries.html">IU Indianapolis Libraries</a>
+              </div>
+              <div class="rvt-m-bottom-xxs">
+                  <a href="https://www.ulib.iupui.edu/">University Library</a>
+              </div>
+              <div class="rvt-m-bottom-xxs">
+                  <a href="https://library.mednet.iu.edu/">Ruth Lilly Medical Library</a>
+              </div>
+              <div class="rvt-m-bottom-xxs">
+                  <a href="https://mckinneylaw.iu.edu/library/index.html">Ruth Lilly Law Library</a>
+              </div>
+              <div class="rvt-m-bottom-xxs">
+                  <a href="https://dentistry.iu.edu/academics/library/index.html">IU School of Dentistry Library</a>             
+              </div>
+            </div>
+      
+            <div class="column rvt-cols-12-sm rvt-cols-4-md rvt-p-bottom-md">
+              <div class="rvt-m-bottom-md">
+                Get Help
+              </div>
+              <div class="rvt-m-bottom-xxs">
+              <a href="https://www.ulib.iupui.edu/research/tools/ez-proxy">About EZProxy</a>
+              </div>
+              <div class="rvt-m-bottom-xxs">
+              <a href="https://www.ulib.iupui.edu/research/tools/bookmarklet">EZProxy Bookmarklets</a>
+              </div>
+              <div class="rvt-m-bottom-xxs">
+              <a href="https://kb.iu.edu/d/aljr">Contact Your Campus Library</a>
+              </div>
+            </div>
+
+            <div class="column rvt-cols-12-sm rvt-cols-4-md rvt-p-bottom-md">
+              <div class="rvt-m-bottom-md">
+                  <a href="https://www.iupui.edu">IU Indianapolis</a>
+              </div>                  
+              <div class="rvt-m-bottom-xxs">
+              317-274-5555
+              </div>
+              <div class="rvt-m-bottom-xxs">
+              420 University Blvd. 
+              </div>
+              <div class="rvt-m-bottom-xxs">
+              Indianapolis, IN  46202
+              </div>                  
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!--
+        **************************************************************************
+            End Local Footer
+        ************************************************************************** 
+      -->

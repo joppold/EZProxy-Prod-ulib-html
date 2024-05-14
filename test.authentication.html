@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+  <meta charset="utf-8" />
+<TITLE>IUPUI EZProxy Authentication Required</TITLE>
+</HEAD>
+
+<BODY>
+
+<!-- begin inserted HTML -->
+<div>
+<h1 style="text-align: center;">Authentication Required</h1>
+</div>
+
+<div>
+<p>&nbsp;</p>
+</div>
+
+<div><script type="text/javascript">// <![CDATA[
+function RedirectToCAS() {
+    window.location = "&AUTHCASLOGIN"
+  }
+
+  function RedirectToLibraryLogin() {
+    window.location = "&AUTHLIBRARYLOGIN"
+  }
+
+  function RedirectToAccountHelp() {
+    window.location = "http://kb.iu.edu/data/aczn.html"
+  }
+// ]]></script></div>
+
+<div>
+<center>
+<table border="2" bordercolor="#ff0000" bordercolordark="#FF6342" cellpadding="15" cellspacing="15" lorlight="#52B552" style="width: 80%;">
+	<tbody>
+		<tr align="center">
+			<td><button name="OK" onclick="RedirectToCAS()"><b>IU Network ID</b></button></td>
+			<td align="left"><b>Select, if you have an IUPUI-affiliated <a href="http://kb.iu.edu/data/beml.html">Network ID</a></b>. Your browser will be redirected to the <a href="http://kb.iu.edu/data/akui.html">Central Authentication Service</a> login page (unless you are already logged into CAS).</td>
+		</tr>
+		<tr align="center">
+			<td><button name="OK2" onclick="RedirectToLibraryLogin()"><b>Library-only</b> User ID</button></td>
+			<td align="left"><b>Select, if you have been given a special University Library-only username and password.</b> NOTE: This account is valid only for access to IUPUI University Library electronic resources.</td>
+		</tr>
+		<tr align="center">
+			<td><button name="OK3" onclick="RedirectToAccountHelp()"><b>No</b> User ID</button></td>
+			<td align="left"><b>Select to learn more about obtaining computer accounts at Indiana University.</b></td>
+		</tr>
+	</tbody>
+</table>
+</center>
+</div>
+<!-- end inserted HTML -->
+
+</BODY>
+</HTML>
